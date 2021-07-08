@@ -1,0 +1,7 @@
+set.seed(0)
+x <- runif(100000)
+y <- runif(100000)
+z <- sqrt((x*x)+(y*y))
+plot(x[which(z<1)], y[which(z<1)], col="pink")
+pi <- 4*(mean(z<1))
+cat("Approximate Pi : ",pi)
