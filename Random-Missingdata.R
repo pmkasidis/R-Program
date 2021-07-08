@@ -3,7 +3,7 @@ library("readxl")
 library("writexl")
 
 ## Read Not Missing Data
-input_data    <- read_excel("")
+input_data    <- read_excel(".....")
 df_input_data <- data.frame(input_data)
 df_input_data
 
@@ -36,4 +36,4 @@ for (i in 1:n_random_p) {
 df_input_data
 
 ## Save Data
-write_xlsx(df_input_data,"")
+write_xlsx(df_input_data,".....")
